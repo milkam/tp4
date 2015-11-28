@@ -12,7 +12,7 @@
 #include "ContratException.h"
 
 namespace tp {
-
+//test d'ajour de commentaire
 /**
  * \class Borne
  * \brief une classe qui permet de modéliser tous les types de bornes présents dans la ville de Québec.
