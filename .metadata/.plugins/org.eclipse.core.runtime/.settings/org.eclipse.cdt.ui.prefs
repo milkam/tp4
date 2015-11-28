@@ -1,0 +1,50 @@
+content_assist_disabled_computers=org.eclipse.cdt.ui.textProposalCategory\u0000org.eclipse.cdt.ui.parserProposalCategory\u0000
+eclipse.preferences.version=1
+formatter_profile=org.eclipse.cdt.ui.default.allman_profile
+formatter_settings_version=1
+includeStyle.external=<?xml version\="1.0" encoding\="UTF-8"?>\n<style angle_brackets\="false" blank_line_before\="false" keep_together\="false" relative_path\="false"/>
+includeStyle.inOtherProject=<?xml version\="1.0" encoding\="UTF-8"?>\n<style angle_brackets\="false" blank_line_before\="false" keep_together\="false" relative_path\="false"/>
+includeStyle.inSameProject=<?xml version\="1.0" encoding\="UTF-8"?>\n<style angle_brackets\="false" blank_line_before\="false" keep_together\="false" relative_path\="false"/>
+includeStyle.other=<?xml version\="1.0" encoding\="UTF-8"?>\n<style blank_line_before\="true" keep_together\="true" order\="3"/>
+includeStyle.partner=<?xml version\="1.0" encoding\="UTF-8"?>\n<style angle_brackets\="false" blank_line_before\="true" keep_together\="true" order\="0" relative_path\="false"/>
+includeStyle.related=<?xml version\="1.0" encoding\="UTF-8"?>\n<style blank_line_before\="false" keep_together\="false"/>
+includeStyle.sameFolder=<?xml version\="1.0" encoding\="UTF-8"?>\n<style angle_brackets\="false" blank_line_before\="false" keep_together\="false" relative_path\="false"/>
+includeStyle.subfolder=<?xml version\="1.0" encoding\="UTF-8"?>\n<style angle_brackets\="false" blank_line_before\="false" keep_together\="false" relative_path\="false"/>
+includeStyle.system=<?xml version\="1.0" encoding\="UTF-8"?>\n<style blank_line_before\="true" keep_together\="true" order\="1"/>
+includeStyle.systemWithExtension=<?xml version\="1.0" encoding\="UTF-8"?>\n<style angle_brackets\="true" blank_line_before\="false" keep_together\="true" order\="1" relative_path\="false"/>
+includeStyle.systemWithoutExtension=<?xml version\="1.0" encoding\="UTF-8"?>\n<style angle_brackets\="true" blank_line_before\="false" keep_together\="true" order\="2" relative_path\="false"/>
+nameStyle.constant.prefix=
+nameStyle.constant.suffix=
+nameStyle.constant.wordDelimiter=_
+nameStyle.cpp.header.prefix=
+nameStyle.cpp.header.suffix=.h
+nameStyle.cpp.header.wordDelimiter=
+nameStyle.cpp.source.prefix=
+nameStyle.cpp.source.suffix=.cpp
+nameStyle.cpp.source.wordDelimiter=
+nameStyle.cpp.test.prefix=
+nameStyle.cpp.test.suffix=_test.cpp
+nameStyle.cpp.test.wordDelimiter=
+nameStyle.field.prefix=
+nameStyle.field.suffix=
+nameStyle.field.wordDelimiter=
+nameStyle.getter.prefix=req
+nameStyle.getter.prefixForBoolean=is
+nameStyle.getter.suffix=
+nameStyle.getter.wordDelimiter=
+nameStyle.method.prefix=
+nameStyle.method.suffix=
+nameStyle.method.wordDelimiter=
+nameStyle.setter.prefix=asg
+nameStyle.setter.suffix=
+nameStyle.setter.wordDelimiter=
+nameStyle.variable.prefix=
+nameStyle.variable.suffix=
+nameStyle.variable.wordDelimiter=
+org.eclipse.cdt.ui.add_comments=true
+org.eclipse.cdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="false" context\="org.eclipse.cdt.ui.text.codetemplates.filecomment_context" deleted\="false" description\="Comment for created C/C++ files" enabled\="true" id\="org.eclipse.cdt.ui.text.codetemplates.filecomment" name\="filecomment">/**\n * \\file ${file_name}\n * \\brief\n * \\author Michel Tremblay\n * \\date ${date}\n */\n</template></templates>
+org.eclipse.cdt.ui.text.templates.custom=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="org.eclipse.cdt.ui.text.templates.c" deleted\="false" description\="main method" enabled\="true" id\="org.eclipse.cdt.ui.text.templates.c.main" name\="main">int main() {\n\t${cursor}\n\treturn 0;\n}\n</template><template autoinsert\="true" context\="org.eclipse.cdt.ui.text.templates.c" deleted\="false" description\="Commentaire pour une classe" enabled\="true" name\="comClass">/**\n * \\class\n * \\brief\n */</template><template autoinsert\="true" context\="org.eclipse.cdt.ui.text.templates.c" deleted\="false" description\="Commentaire pour les methodes" enabled\="true" name\="comMethode">/**\n * \\brief\n * \\param[in]\n * \\param[in]\n * \\pre\n * \\post\n * \\exception\n * \\return\n */</template><template autoinsert\="true" context\="org.eclipse.cdt.ui.text.templates.c" deleted\="false" description\="Commentaire de Req" enabled\="true" name\="comReq">/**\n * \\brief Accesseur pour\n * \\return m_\n */</template><template autoinsert\="true" context\="org.eclipse.cdt.ui.text.templates.c" deleted\="false" description\="Commentaire pour mutateur" enabled\="true" name\="comAsg">/**\n * \\brief Mutateur pour xyz, modifie xyz\n */</template><template autoinsert\="true" context\="org.eclipse.cdt.ui.text.templates.c" deleted\="false" description\="Brief of test" enabled\="true" name\="comTest">/**\n * \\brief\n * Cas Valide \:\n * Cas Invalide \: \n */</template></templates>
+sourceHoverBackgroundColor=252,252,252
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

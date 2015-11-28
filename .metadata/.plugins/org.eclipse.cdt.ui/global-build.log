@@ -1,0 +1,205 @@
+02:30:56 **** Incremental Build of configuration Debug for project Utilisateur ****
+make all 
+make: Nothing to be done for 'all'.
+02:30:56 **** Incremental Build of configuration Debug for project source ****
+make all 
+make: Nothing to be done for 'all'.
+02:30:56 **** Incremental Build of configuration Debug for project testeur ****
+make all 
+make: Nothing to be done for 'all'.
+02:31:09 **** Incremental Build of configuration Debug for project source ****
+make all 
+make: Nothing to be done for 'all'.
+02:31:09 **** Incremental Build of configuration Debug for project Utilisateur ****
+make all 
+make: Nothing to be done for 'all'.
+02:31:09 **** Incremental Build of configuration Debug for project testeur ****
+make all 
+make: Nothing to be done for 'all'.
+02:31:09 **** Incremental Build of configuration Debug for project testeur ****
+make all 
+make: Nothing to be done for 'all'.
+02:32:24 **** Incremental Build of configuration Debug for project source ****
+make all 
+Building file: ../Borne.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Borne.d" -MT"Borne.d" -o "Borne.o" "../Borne.cpp"
+Finished building: ../Borne.cpp
+ 
+Building file: ../BorneFontaine.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BorneFontaine.d" -MT"BorneFontaine.d" -o "BorneFontaine.o" "../BorneFontaine.cpp"
+Finished building: ../BorneFontaine.cpp
+ 
+Building file: ../BorneStationnement.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BorneStationnement.d" -MT"BorneStationnement.d" -o "BorneStationnement.o" "../BorneStationnement.cpp"
+Finished building: ../BorneStationnement.cpp
+ 
+Building file: ../ContratException.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ContratException.d" -MT"ContratException.d" -o "ContratException.o" "../ContratException.cpp"
+Finished building: ../ContratException.cpp
+ 
+Building file: ../RegistreBorne.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RegistreBorne.d" -MT"RegistreBorne.d" -o "RegistreBorne.o" "../RegistreBorne.cpp"
+Finished building: ../RegistreBorne.cpp
+ 
+Building file: ../validationFormat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"validationFormat.d" -MT"validationFormat.d" -o "validationFormat.o" "../validationFormat.cpp"
+Finished building: ../validationFormat.cpp
+ 
+Building target: libsource.a
+Invoking: GCC Archiver
+ar -r  "libsource.a"  ./Borne.o ./BorneFontaine.o ./BorneStationnement.o ./ContratException.o ./RegistreBorne.o ./validationFormat.o   
+ar: création de libsource.a
+Finished building target: libsource.a
+ 
+02:32:25 **** Incremental Build of configuration Debug for project Utilisateur ****
+make all 
+Building file: ../Utilisateur.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/etudiant/Desktop/Universite/mitre319-tp3/source" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Utilisateur.d" -MT"Utilisateur.d" -o "Utilisateur.o" "../Utilisateur.cpp"
+Finished building: ../Utilisateur.cpp
+ 
+Building target: Utilisateur
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Desktop/Universite/mitre319-tp3/source/Debug" -o "Utilisateur"  ./Utilisateur.o   -lsource
+Finished building target: Utilisateur
+ 
+02:32:26 **** Incremental Build of configuration Debug for project testeur ****
+make all 
+Building file: ../BorneFontaineTesteur.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/etudiant/Desktop/Universite/mitre319-tp3/source" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BorneFontaineTesteur.d" -MT"BorneFontaineTesteur.d" -o "BorneFontaineTesteur.o" "../BorneFontaineTesteur.cpp"
+Finished building: ../BorneFontaineTesteur.cpp
+ 
+Building file: ../BorneStationnementTesteur.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/etudiant/Desktop/Universite/mitre319-tp3/source" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BorneStationnementTesteur.d" -MT"BorneStationnementTesteur.d" -o "BorneStationnementTesteur.o" "../BorneStationnementTesteur.cpp"
+Finished building: ../BorneStationnementTesteur.cpp
+ 
+Building file: ../BorneTesteur.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/etudiant/Desktop/Universite/mitre319-tp3/source" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BorneTesteur.d" -MT"BorneTesteur.d" -o "BorneTesteur.o" "../BorneTesteur.cpp"
+Finished building: ../BorneTesteur.cpp
+ 
+Building file: ../RegistreBorneTesteur.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/etudiant/Desktop/Universite/mitre319-tp3/source" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RegistreBorneTesteur.d" -MT"RegistreBorneTesteur.d" -o "RegistreBorneTesteur.o" "../RegistreBorneTesteur.cpp"
+Finished building: ../RegistreBorneTesteur.cpp
+ 
+Building target: testeur
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Desktop/Universite/mitre319-tp3/source/Debug" -o "testeur"  ./BorneFontaineTesteur.o ./BorneStationnementTesteur.o ./BorneTesteur.o ./RegistreBorneTesteur.o   -lgtest -lgtest_main -lpthread -lsource
+Finished building target: testeur
+ 
+02:32:28 **** Incremental Build of configuration Debug for project testeur ****
+make all 
+make: Nothing to be done for 'all'.
+02:32:36 **** Clean-only build of configuration Debug for project Utilisateur ****
+make clean 
+rm -rf  ./Utilisateur.o  ./Utilisateur.d  Utilisateur
+ 
+02:32:36 **** Clean-only build of configuration Debug for project source ****
+make clean 
+rm -rf  ./Borne.o ./BorneFontaine.o ./BorneStationnement.o ./ContratException.o ./RegistreBorne.o ./validationFormat.o  ./Borne.d ./BorneFontaine.d ./BorneStationnement.d ./ContratException.d ./RegistreBorne.d ./validationFormat.d  libsource.a
+ 
+02:32:36 **** Clean-only build of configuration Debug for project testeur ****
+make clean 
+rm -rf  ./BorneFontaineTesteur.o ./BorneStationnementTesteur.o ./BorneTesteur.o ./RegistreBorneTesteur.o  ./BorneFontaineTesteur.d ./BorneStationnementTesteur.d ./BorneTesteur.d ./RegistreBorneTesteur.d  testeur
+ 
+02:32:38 **** Build of configuration Debug for project source ****
+make all 
+Building file: ../Borne.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Borne.d" -MT"Borne.d" -o "Borne.o" "../Borne.cpp"
+Finished building: ../Borne.cpp
+ 
+Building file: ../BorneFontaine.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BorneFontaine.d" -MT"BorneFontaine.d" -o "BorneFontaine.o" "../BorneFontaine.cpp"
+Finished building: ../BorneFontaine.cpp
+ 
+Building file: ../BorneStationnement.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BorneStationnement.d" -MT"BorneStationnement.d" -o "BorneStationnement.o" "../BorneStationnement.cpp"
+Finished building: ../BorneStationnement.cpp
+ 
+Building file: ../ContratException.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ContratException.d" -MT"ContratException.d" -o "ContratException.o" "../ContratException.cpp"
+Finished building: ../ContratException.cpp
+ 
+Building file: ../RegistreBorne.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RegistreBorne.d" -MT"RegistreBorne.d" -o "RegistreBorne.o" "../RegistreBorne.cpp"
+Finished building: ../RegistreBorne.cpp
+ 
+Building file: ../validationFormat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"validationFormat.d" -MT"validationFormat.d" -o "validationFormat.o" "../validationFormat.cpp"
+Finished building: ../validationFormat.cpp
+ 
+Building target: libsource.a
+Invoking: GCC Archiver
+ar -r  "libsource.a"  ./Borne.o ./BorneFontaine.o ./BorneStationnement.o ./ContratException.o ./RegistreBorne.o ./validationFormat.o   
+ar: création de libsource.a
+Finished building target: libsource.a
+ 
+02:32:39 **** Build of configuration Debug for project Utilisateur ****
+make all 
+Building file: ../Utilisateur.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/etudiant/Desktop/Universite/mitre319-tp3/source" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Utilisateur.d" -MT"Utilisateur.d" -o "Utilisateur.o" "../Utilisateur.cpp"
+Finished building: ../Utilisateur.cpp
+ 
+Building target: Utilisateur
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Desktop/Universite/mitre319-tp3/source/Debug" -o "Utilisateur"  ./Utilisateur.o   -lsource
+Finished building target: Utilisateur
+ 
+02:32:40 **** Build of configuration Debug for project testeur ****
+make all 
+Building file: ../BorneFontaineTesteur.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/etudiant/Desktop/Universite/mitre319-tp3/source" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BorneFontaineTesteur.d" -MT"BorneFontaineTesteur.d" -o "BorneFontaineTesteur.o" "../BorneFontaineTesteur.cpp"
+Finished building: ../BorneFontaineTesteur.cpp
+ 
+Building file: ../BorneStationnementTesteur.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/etudiant/Desktop/Universite/mitre319-tp3/source" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BorneStationnementTesteur.d" -MT"BorneStationnementTesteur.d" -o "BorneStationnementTesteur.o" "../BorneStationnementTesteur.cpp"
+Finished building: ../BorneStationnementTesteur.cpp
+ 
+Building file: ../BorneTesteur.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/etudiant/Desktop/Universite/mitre319-tp3/source" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BorneTesteur.d" -MT"BorneTesteur.d" -o "BorneTesteur.o" "../BorneTesteur.cpp"
+Finished building: ../BorneTesteur.cpp
+ 
+Building file: ../RegistreBorneTesteur.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/etudiant/Desktop/Universite/mitre319-tp3/source" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RegistreBorneTesteur.d" -MT"RegistreBorneTesteur.d" -o "RegistreBorneTesteur.o" "../RegistreBorneTesteur.cpp"
+Finished building: ../RegistreBorneTesteur.cpp
+ 
+Building target: testeur
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Desktop/Universite/mitre319-tp3/source/Debug" -o "testeur"  ./BorneFontaineTesteur.o ./BorneStationnementTesteur.o ./BorneTesteur.o ./RegistreBorneTesteur.o   -lgtest -lgtest_main -lpthread -lsource
+Finished building target: testeur
+ 
+02:32:42 **** Incremental Build of configuration Debug for project Utilisateur ****
+make all 
+make: Nothing to be done for 'all'.
+02:34:02 **** Incremental Build of configuration Debug for project source ****
+make all 
+make: Nothing to be done for 'all'.
+02:34:02 **** Incremental Build of configuration Debug for project Utilisateur ****
+make all 
+make: Nothing to be done for 'all'.
+02:34:02 **** Incremental Build of configuration Debug for project testeur ****
+make all 
+make: Nothing to be done for 'all'.
+02:34:02 **** Incremental Build of configuration Debug for project testeur ****
+make all 
+make: Nothing to be done for 'all'.

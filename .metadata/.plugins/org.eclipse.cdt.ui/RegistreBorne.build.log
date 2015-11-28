@@ -1,0 +1,15 @@
+23:18:36 **** Build of configuration Debug for project RegistreBorne ****
+make all 
+Building file: ../RegistreBorne.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RegistreBorne.d" -MT"RegistreBorne.d" -o "RegistreBorne.o" "../RegistreBorne.cpp"
+In file included from ../RegistreBorne.cpp:8:0:
+../RegistreBorne.h:13:32: fatal error: BorneStationnement.h: Aucun fichier ou dossier de ce type
+ #include "BorneStationnement.h"
+                                ^
+compilation terminated.
+subdir.mk:18: recipe for target 'RegistreBorne.o' failed
+make: *** [RegistreBorne.o] Error 1
+
+23:18:36 Build Finished (took 243ms)
+
